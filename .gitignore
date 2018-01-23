@@ -1,5 +1,5 @@
 setup.py
-.eggs
-.vscode
+.eggs/
+.vscode/
 build/
 dist/

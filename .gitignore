@@ -1,0 +1,5 @@
+setup.py
+.eggs
+.vscode
+build/
+dist/

@@ -22,7 +22,8 @@ def get_ss(out_file_path):
 
 
 def image_ocr(image_path):
-    text = pytesseract.image_to_string(Image.open(image_path), lang='chi_sim')
+    text = pytesseract.image_to_string(Image.open(
+        image_path), lang='chi_sim', config='-psm 6')
     return text
 
 
